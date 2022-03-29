@@ -1,31 +1,11 @@
-import speech_recognition as sr 
-import pyttsx3  
-r = sr.Recognizer()  
-def SpeakText(command): 
-      
-    
-    engine = pyttsx3.init() 
-    engine.say(command)  
-    engine.runAndWait() 
-      
-      
-  
-while(1):     
-      
-    
-    
-    try: 
-         
-        with sr.Microphone() as source2: 
-                      r.adjust_for_ambient_noise(source2, duration=0.2) 
-                  audio2 = r.listen(source2) 
-                  MyText = r.recognize_google(audio2) 
-            MyText = MyText.lower() 
-    print("Did you say "+MyText) 
-            SpeakText(MyText) 
-              
-    except sr.RequestError as e: 
-        print("Could not request results; {0}".format(e)) 
-          
-    except sr.UnknownValueError: 
-        print("unknown error occured") 
+import pyttsx3 #importando biblioteca responsável pela fala do pc
+
+fala = pyttsx3.init() #atribuindo inicialização para engine
+
+
+while True:
+    frase = input("Coloque a frase que deseja ouvir: ")
+
+    fala.say(frase)  # mostrando a frase que o pc vai falar
+
+    fala.runAndWait()  # vai executar e esperar
