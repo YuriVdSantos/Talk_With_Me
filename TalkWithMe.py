@@ -19,7 +19,7 @@ def reconhecer_fala():   #definindo o que o programa vai fazer caso o usuário d
         return frase
 
 
-if escreva == "S" or escreva == "s":
+if escreva == "S" or escreva == "s" or escreva == "Sim" or escreva == "sim":
     while True:
         frase = input("Coloque a frase que deseja ouvir: ")
 
@@ -27,11 +27,11 @@ if escreva == "S" or escreva == "s":
 
         fala.runAndWait()  # vai executar e esperar
 
-else:
+elif escreva == "N" or escreva == "n" or escreva == "Não" or escreva == "não":
     while True:
-
-        fala.say("Agora você pode falar, e eu, escreverei o que falar.")
-        fala.runAndWait()
         reconhecer_fala()
+else:
+    print("Opção inválida! Digite 'S' ou 'N'")
+    exit()
         
 

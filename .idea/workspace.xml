@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bf7a73f-2424-4512-89e5-f4a86c7d1266" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Talk With Me - 1° projeto.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TalkWithMe.py" beforeDir="false" afterPath="$PROJECT_DIR$/TalkWithMe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3-2.90.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3-2.90.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3-2.90.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3-2.90.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3-2.90.dist-info/REQUESTED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3-2.90.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3-2.90.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/driver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/drivers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/drivers/_espeak.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/drivers/dummy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/drivers/espeak.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/drivers/nsss.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/drivers/sapi5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/engine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyttsx3/voice.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +44,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TalkWithMe">
+  <component name="RunManager" selected="Python.scratch">
     <configuration name="TalkWithMe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TalkWithMe" />
         <item itemvalue="Python.scratch" />
+        <item itemvalue="Python.TalkWithMe" />
         <item itemvalue="Python.teste_TalkWithMe" />
       </list>
     </recent_temporary>
